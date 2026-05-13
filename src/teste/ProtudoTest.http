@@ -1,0 +1,14 @@
+//Listar todos
+GET http://localhost:3000/api/produtos
+###
+
+//Cadastrar
+POST http://localhost:3000/api/produtos
+Content-Type: application/json
+
+{
+    "name": "bola",
+    "quantity": 50,
+    "price": 20.00
+}
+###
